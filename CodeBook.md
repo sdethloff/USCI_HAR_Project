@@ -6,21 +6,21 @@ This codebook describes the original datasets as well as the har_means.txt tidy 
 
 Original datasets are found in the following files, once extracted from the zip file:
 
-activity_labels.txt
-features.txt
-features_info.txt
-train (folder): X_train.txt, Y_train.txt, and subject_train.txt
-test (folder): X_test.txt, Y_test.txt, subject_test.txt 
+1. activity_labels.txt
+2. features.txt
+3. features_info.txt
+4. train (folder): X_train.txt, Y_train.txt, and subject_train.txt
+5. test (folder): X_test.txt, Y_test.txt, subject_test.txt 
 
 Desctiptions of each original dataset can be found here:
 
-activity_labels data includes two columns which denote specific activiteies (e.g. - Walking, Sitting, etc.) for each activity_number
-features data represent variable names that can be used to name the columns from the x_ datasets
-x_ files contain 561 columns containing measurements, including raw and statistical values (mean, st. dev., mean frequency, etc.) 
-y_files data is composed of only one column, an activity_number, which a code representing the type of activity performed
-subject_ files data is also composed of only one column, subject, which is a code of the specific user being observed
-train data was recorded from 70% of participants from the study
-test data was recorded from 70% of participants from the study
+1. activity_labels data includes two columns which denote specific activiteies (e.g. - Walking, Sitting, etc.) for each activity_number
+2. features data represent variable names that can be used to name the columns from the x_ datasets
+3. x_ files contain 561 columns containing measurements, including raw and statistical values (mean, st. dev., mean frequency, etc.) 
+4. y_files data is composed of only one column, an activity_number, which a code representing the type of activity performed
+5. subject_ files data is also composed of only one column, subject, which is a code of the specific user being observed
+6. train data was recorded from 70% of participants from the study
+7. test data was recorded from 70% of participants from the study
 
 Further detail on each of these different measurements can be found here: [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones].
 
@@ -41,7 +41,7 @@ Further detail on each of these different measurements can be found here: [http:
 
 The solution tidy data set is called har_means.txt and contains the following columns:
 
-subject - same desciption as with original dataset
-activity_description - same desciption as with original dataset
-features - represents the mean or std. deviation of the specific activity
-mean_measurement - mean of datapoints (means and std. deviations) for each combination of user and observed activity
+1. subject - same desciption as with original dataset
+2. activity_description - same desciption as with original dataset
+3. features - represents the mean or std. deviation of the specific activity
+4. mean_measurement - mean of datapoints (means and std. deviations) for each combination of user and observed activity
